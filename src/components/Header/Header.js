@@ -11,12 +11,12 @@ const Header = () => {
       <Container className={styles.headerContainer}>
         <p className={styles.headerTitle}>
           <Link href="/">
-            Cool Clothes
+            Thumbnail Generator
           </Link>
         </p>
         <ul className={styles.headerLinks}>
           <li>
-            <a href="https://github.com/colbyfayock/demo-product-listing-starter" rel="noreferrer">
+            <a href="https://github.com/colbyfayock/cloudinary-thumnail-generator" rel="noreferrer">
               <FaGithub />
             </a>
           </li>

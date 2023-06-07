@@ -17,8 +17,8 @@
   margin: .5em 0;
 
   input:checked + span {
-    background: $color-blue-medium;
-    border: solid 2px $color-blue-medium;
+    background: $color-pink;
+    border: solid 2px $color-pink;
   }
 
   span {
@@ -44,8 +44,10 @@
 .sidebar {
 
   width: 20em;
+  margin-left: 2em;
 
-  [type="search"] {
+  [type="search"],
+  [type="text"] {
     display: block;
     color: black;
     font-size: 1em;
@@ -71,49 +73,6 @@
 
 }
 
-.products {
-
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 4em;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-
-  img {
-    width: 100%;
-  }
+.main {
 
 }
-
-.productImageWrapper {
-  display: flex;
-  align-items: center;
-  aspect-ratio: 370 / 640;
-  padding: 1em;
-}
-
-.productsTitle {
-  font-size: 1.1em;
-  margin: 1em 0 0;
-}
-
-.productRating {
-
-  display: flex;
-  align-items: center;
-  font-size: .9em;
-  margin: 1em 0 0;
-
-  svg {
-    color: #f1aa02;
-    margin-right: .3em;
-  }
-
-}
-
-.productPrice {
-  font-size: 1.2em;
-  margin: .7em 0 0;
-}
-
