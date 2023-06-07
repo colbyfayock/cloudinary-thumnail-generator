@@ -1,7 +1,7 @@
-# Demo Product Listing Starter
+# Cloudinary Thumbnail Generator
+
+Heavily WIP
 
 ```
-yarn create next-app -e https://github.com/colbyfayock/demo-product-listing-starter
-# or
-npx create-next-app -e https://github.com/colbyfayock/demo-product-listing-starter
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME="<Cloud Name>"
 ```
